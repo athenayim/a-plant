@@ -344,6 +344,10 @@ PrefabInstance:
       propertyPath: Name
       value: sunflower
       objectReference: {fileID: 0}
+    - target: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+      propertyPath: ShopObject
+      value: 
+      objectReference: {fileID: 1173466350}
     - target: {fileID: 1136229802892437027, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -423,18 +427,18 @@ PrefabInstance:
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 615437413}
+      objectReference: {fileID: 369906468}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClickReturnGame
+      value: Onclick
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ReturnToGame, Assembly-CSharp
+      value: ShopItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -447,6 +451,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1136229802892437027, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
   m_PrefabInstance: {fileID: 369906466}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &369906468 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+  m_PrefabInstance: {fileID: 369906466}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8953d2916eb2649b86a27ab9a7ae2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &401110675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,6 +1121,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: 360822631791831544, guid: b68c97d3d9f7abb49ad1d9d769c50274, type: 3}
+    - target: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+      propertyPath: ShopObject
+      value: 
+      objectReference: {fileID: 1173466350}
     - target: {fileID: 1136229802892437027, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1177,14 +1196,14 @@ PrefabInstance:
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 615437413}
+      objectReference: {fileID: 1272267615}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClickReturnGame
+      value: Onclick
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ReturnToGame, Assembly-CSharp
+      value: ShopItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1211,6 +1230,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: -7693015364336090672, guid: b68c97d3d9f7abb49ad1d9d769c50274, type: 3}
+    - target: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+      propertyPath: ShopObject
+      value: 
+      objectReference: {fileID: 1173466350}
     - target: {fileID: 1136229802892437027, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1282,14 +1305,14 @@ PrefabInstance:
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 615437413}
+      objectReference: {fileID: 1058396016}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClickReturnGame
+      value: Onclick
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ReturnToGame, Assembly-CSharp
+      value: ShopItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1297,6 +1320,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+--- !u!114 &1058396016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+  m_PrefabInstance: {fileID: 1058396015}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8953d2916eb2649b86a27ab9a7ae2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1103300264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,6 +1432,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: -2204130942209717915, guid: b68c97d3d9f7abb49ad1d9d769c50274, type: 3}
+    - target: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+      propertyPath: ShopObject
+      value: 
+      objectReference: {fileID: 1173466350}
     - target: {fileID: 1136229802892437027, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1469,14 +1507,14 @@ PrefabInstance:
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 615437413}
+      objectReference: {fileID: 2010996170}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClickReturnGame
+      value: Onclick
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ReturnToGame, Assembly-CSharp
+      value: ShopItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1503,7 +1541,7 @@ GameObject:
   - component: {fileID: 1173466351}
   - component: {fileID: 1173466355}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: PlantShop Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1749,6 +1787,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241191395}
   m_CullTransparentMesh: 1
+--- !u!114 &1272267615 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+  m_PrefabInstance: {fileID: 1053563703}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8953d2916eb2649b86a27ab9a7ae2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1493743033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1768,6 +1817,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: -5610806121083152241, guid: b68c97d3d9f7abb49ad1d9d769c50274, type: 3}
+    - target: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+      propertyPath: ShopObject
+      value: 
+      objectReference: {fileID: 1173466350}
     - target: {fileID: 1136229802892437027, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1839,14 +1892,14 @@ PrefabInstance:
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 615437413}
+      objectReference: {fileID: 1565164638}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClickReturnGame
+      value: Onclick
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ReturnToGame, Assembly-CSharp
+      value: ShopItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1854,6 +1907,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+--- !u!114 &1565164638 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+  m_PrefabInstance: {fileID: 1493743033}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8953d2916eb2649b86a27ab9a7ae2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1726823550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1873,6 +1937,10 @@ PrefabInstance:
       propertyPath: sprite
       value: 
       objectReference: {fileID: -1021337870365089616, guid: b68c97d3d9f7abb49ad1d9d769c50274, type: 3}
+    - target: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+      propertyPath: ShopObject
+      value: 
+      objectReference: {fileID: 1173466350}
     - target: {fileID: 1136229802892437027, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -1944,14 +2012,14 @@ PrefabInstance:
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 615437413}
+      objectReference: {fileID: 1837862365}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClickReturnGame
+      value: Onclick
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ReturnToGame, Assembly-CSharp
+      value: ShopItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6461019142756079497, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1964,3 +2032,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1136229802892437027, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
   m_PrefabInstance: {fileID: 1058396015}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837862365 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+  m_PrefabInstance: {fileID: 1726823550}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8953d2916eb2649b86a27ab9a7ae2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2010996170 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 369906471, guid: cde0ddcd1cf39b0458a52e2a3bb16104, type: 3}
+  m_PrefabInstance: {fileID: 1130308894}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8953d2916eb2649b86a27ab9a7ae2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

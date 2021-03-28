@@ -46,13 +46,23 @@ public class Plant : MonoBehaviour
 
     public void Water()
     {
-        if (plantData.isWithered) { return; }
+        if (plantData.isWithered) {
+            gui.ShowMessage("buy a new plant in the shop.");
+            return;
+        }
+        if (plantData.waterCount >= 15)
+        {
+            gui.ShowMessage("check out the shop :)");
+            data.gameData.currentlyGrowingAPlant = false;
+            return;
+        }
         DateTime timeNow = DateTime.Now;
 
         double deltaTime = timeNow.Subtract(plantData.getLastWatered()).TotalSeconds;
         
         if(deltaTime > plantData.maxTimeBetweenWatering && plantData.waterHistory.Count > 1)
         {
+            data.gameData.currentlyGrowingAPlant = false;
             plantData.isWithered = true;
             tmpObject.SetActive(true);
             text.text = "plant is dead :(";
@@ -75,6 +85,10 @@ public class Plant : MonoBehaviour
             if (plantData.waterCount >= wateringThresholds[wateringThresholds.Length - 1]) // last threshold
             {
                 data.gameData.points += 500;
+            }
+            else
+            {
+                data.gameData.currentlyGrowingAPlant = true;
             }
 
         } else

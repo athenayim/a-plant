@@ -28,7 +28,7 @@ public class plantShop : MonoBehaviour
         goldText.text = currentpoints.ToString() + "fp";
     }
 
-    public void Buy(int price)
+    public void Buy(int price, string name)
     {
         if(currentpoints < price)
         {
@@ -37,5 +37,6 @@ public class plantShop : MonoBehaviour
         }
         
         UpdatePoints(currentpoints - price);
+        data.plantData.name = name;
     }
 }

@@ -10,6 +10,7 @@ public class GUIController : MonoBehaviour
     public GameObject waterDropPrefab;
     public GameObject history;
     public GameObject historyList;
+    public GameObject title;
 
     private TextMeshProUGUI uGUI;
 
@@ -26,6 +27,14 @@ public class GUIController : MonoBehaviour
         TextMeshProUGUI warningText = waterWarning.GetComponent<TextMeshProUGUI>();
 
         warningText.text = "You need to wait " + roundNumber((float) waitTime) + " seconds before watering";
+    }
+
+    public void ShowMessage(string message)
+    {
+        GameObject waterWarning = Instantiate(waterWarningPrefab, transform);
+        TextMeshProUGUI warningText = waterWarning.GetComponent<TextMeshProUGUI>();
+
+        warningText.text = message;
     }
 
     public void ShowWaterdrop() {
@@ -84,5 +93,9 @@ public class GUIController : MonoBehaviour
     private void Update()
     {
         uGUI.text = data.plantData.waterCount.ToString();
+
+        TextMeshProUGUI titleText = title.GetComponent<TextMeshProUGUI>();
+        titleText.text = "Now growing:\n" + data.plantData.name;
+
     }
 }

@@ -38,6 +38,7 @@ public class PlantData
     public bool isWithered = false;
     public int waterCount;
     public List<WaterEvent> waterHistory = new List<WaterEvent>();
+    public string name = "Sprout";
 
     // In seconds
     //public double maxTimeBetweenWatering = 4 * 60 * 60;
@@ -143,6 +144,7 @@ public class Data : MonoBehaviour
         plantData.isWithered = false;
         plantData.waterCount = 0;
         plantData.waterHistory = new List<WaterEvent>();
+        gameData.currentlyGrowingAPlant = true;
     }
 
 }
